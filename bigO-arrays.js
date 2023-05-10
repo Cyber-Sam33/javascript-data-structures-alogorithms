@@ -15,11 +15,19 @@ let names = ['Sam', 'Katie', 'Layla'];
 
 //However, problem when we insert at the beginning of array because ALL indexes need to be updated 
 //because we have added one element to the beginiing of array. Everthing gets re-indexed
-//Therefore, it's O(n) for adding to the beginning. 'unshift' adds to beginning and 'shift' removes from beginning
-names.unshift('Raj');
-console.log(names);
-names.shift('Raj');
-console.log(names);
+//Therefore, it's O(N) for adding to the beginning. 'unshift' adds to beginning and 'shift' removes from beginning
+// names.unshift('Raj');
+// console.log(names);
+// names.shift('Raj');
+// console.log(names);
+
+//CONCAT(MULTIPLE ARRAYS AND MERGES TOGETHER), SLICE (Copy of part an array) AND SPLICE(remove and add new elements) - O(N)
+
+
+//SORT (time takes to sort array is alrger than O(N), it's more complicated) - O(N * log N)
+
+//farEach/map/filter/reduceetc. - O(N)
+
 
 
 
